@@ -10,6 +10,23 @@
 - 单文件，`difffocus.py` 拷走就能用
 - **机械可判定的直接判；需要人判断的标出来，但不替你下结论**
 
+<!-- ipos:install -->
+## 安装
+
+零依赖，Python 3.10+ 即可：
+
+```bash
+pip install henrytooth-difffocus
+```
+
+装完直接用命令名调用：
+
+```bash
+difffocus --help
+```
+
+也可以不用安装，直接把 `difffocus.py` 拷走用——它只依赖标准库。
+
 ## 为什么需要它
 
 评审代码时最消耗精力的情形，是一份 diff 里大部分行数都在改缩进和换行。
